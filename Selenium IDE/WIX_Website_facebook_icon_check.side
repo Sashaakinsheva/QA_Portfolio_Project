@@ -1,0 +1,57 @@
+{
+  "id": "5fd12119-f336-4595-aee0-35c05b6d40e2",
+  "version": "2.0",
+  "name": "facebook icon",
+  "url": "https://qasvus.wixsite.com",
+  "tests": [{
+    "id": "903c15f2-1da3-4fb6-bd41-2278ee7c2269",
+    "name": "facebook icon check",
+    "commands": [{
+      "id": "bc8baac5-80ed-45e7-b0dc-d24bab1b3aae",
+      "comment": "",
+      "command": "open",
+      "target": "/ca-marketing",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2abc2639-6c6f-40a6-98c1-87347d4bcb35",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c457db0-b21a-485e-9c46-1e522eb1c8d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#img_0_comp-ldaaabc9 > img",
+      "targets": [
+        ["css=#img_0_comp-ldaaabc9 > img", "css:finder"],
+        ["xpath=//img[@alt='Facebook']", "xpath:img"],
+        ["xpath=//wow-image[@id='img_0_comp-ldaaabc9']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5340",
+      "windowTimeout": 2000
+    }, {
+      "id": "2a3c6aba-3a86-4413-8f66-b0d8e22f6a5a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5340}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d46e4bca-1c3d-42db-90e1-c17618d089fb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["903c15f2-1da3-4fb6-bd41-2278ee7c2269"]
+  }],
+  "urls": ["https://qasvus.wixsite.com/"],
+  "plugins": []
+}

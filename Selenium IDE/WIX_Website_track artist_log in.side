@@ -1,0 +1,166 @@
+{
+  "id": "e5fae302-1bb5-410e-b103-f77b7c1ddd99",
+  "version": "2.0",
+  "name": "track artist_log in",
+  "url": "https://qasvus.wixsite.com/ca-marketing",
+  "tests": [{
+    "id": "824ab82d-ea66-4745-939b-67e4e482a156",
+    "name": "Track_Artist_log _in",
+    "commands": [{
+      "id": "d5e558dd-6497-46da-80cd-86eaacb738e4",
+      "comment": "",
+      "command": "open",
+      "target": "https://qasvus.wixsite.com/ca-marketing",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12806f5f-3729-4bdf-8ecb-e63745753465",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1c47b7c-234a-4187-b7b7-13c7b09a5c9a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=4",
+      "targets": [
+        ["index=4"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e0280c4-9ad2-4c3a-a9f6-ab62a33f910f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.track > .ng-binding",
+      "targets": [
+        ["css=.track > .ng-binding", "css:finder"],
+        ["xpath=//div[@id='track']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Track Artist')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win429",
+      "windowTimeout": 2000
+    }, {
+      "id": "0f0e4c14-cd03-46fb-baa2-88e88bdd45ad",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win429}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "781955aa-1b96-4228-82bc-553a8c9dffcd",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8895adf-696d-4a2a-85d2-4743dcc2b418",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "sashaakinsheva@gmail.com"
+    }, {
+      "id": "289f7407-0fa2-4652-a7ee-aa92081c50e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=rect",
+      "targets": [
+        ["css=rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "491c8c4f-59b8-41d4-ac82-f5f760d56446",
+      "comment": "",
+      "command": "click",
+      "target": "css=rect",
+      "targets": [
+        ["css=rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b302147b-87cb-4a98-aeff-ce3b620fd49e",
+      "comment": "",
+      "command": "click",
+      "target": "id=digit1",
+      "targets": [
+        ["id=digit1", "id"],
+        ["css=#digit1", "css:finder"],
+        ["xpath=//input[@id='digit1']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df0434dd-4e16-4f1a-99db-78faa1007105",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wtfeDvAwm0S35yH3actF",
+      "targets": [
+        ["css=.wtfeDvAwm0S35yH3actF", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.bandsintown.com/a/7643-the-music?came_from=267&utm_medium=web&utm_source=artist_opt_in&utm_campaign=view_all_events')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7528",
+      "windowTimeout": 2000
+    }, {
+      "id": "a3e0d79d-d199-4a49-bb14-fd4d39c251de",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7528}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4486edbc-77fb-47dd-9b6e-5affd321554e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=6",
+      "targets": [
+        ["index=6"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9f57c09-175b-4f82-9565-eabf30787af9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.img_ad > .i-amphtml-fill-content",
+      "targets": [
+        ["css=.img_ad > .i-amphtml-fill-content", "css:finder"],
+        ["xpath=//img[contains(@src,'https://tpc.googlesyndication.com/simgad/4840798730511664444?sqp=4sqPyQQrQikqJwhfEAEdAAC0QiABKAEwCTgDQPCTCUgAUAFYAWBfcAJ4AcUBLbKdPg&rs=AOga4qnbCxYWGgOuOsXH4H-gw2tipxwv6A')]", "xpath:img"],
+        ["xpath=//a[@id='aw0']/amp-img/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "31ee8c07-8fde-49e4-8074-471d2fcaf1ab",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["824ab82d-ea66-4745-939b-67e4e482a156"]
+  }],
+  "urls": [],
+  "plugins": []
+}
